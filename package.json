@@ -1,0 +1,24 @@
+{
+  "name": "discord-message-translator-bot",
+  "version": "1.0.0",
+  "description": "Bot to translate messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaamilmirza/Discord-Message-Translator-Bot.git"
+  },
+  "keywords": [
+    "Discord",
+    "Bot",
+    "Translator"
+  ],
+  "author": "Kaamil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaamilmirza/Discord-Message-Translator-Bot/issues"
+  },
+  "homepage": "https://github.com/kaamilmirza/Discord-Message-Translator-Bot#readme"
+}

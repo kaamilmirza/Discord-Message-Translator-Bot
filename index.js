@@ -1,10 +1,9 @@
 
-const Discord = require('discord.js');
+const {Client,Intents} = require('discord.js');
 const language = require('./langOptions');
 const translate = require('google-translate-api');
 const speech = require('./messages');
-
-const client = new Discord.Client();
+const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_VOICE_STATES, Intents.FLAGS.GUILD_MESSAGES] });
 const prefix = "!";
 
 client.on("ready", () => {
@@ -72,5 +71,5 @@ client.on("message", (message) => {
 
 })
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.CLIENT_TOKEN);
 

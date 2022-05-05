@@ -22,7 +22,10 @@
   },
   "homepage": "https://github.com/kaamilmirza/Discord-Message-Translator-Bot#readme",
   "dependencies": {
+    "@iamtraction/google-translate": "^1.1.2",
     "discord.js": "^13.6.0",
-    "google-translate-api": "^2.3.0"
+    "dotenv": "^16.0.0",
+    "google-translate-api": "^2.3.0",
+    "nodemon": "^2.0.16"
   }
 }

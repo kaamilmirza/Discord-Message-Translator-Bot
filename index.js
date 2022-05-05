@@ -1,8 +1,9 @@
 
 const {Client,Intents} = require('discord.js');
 const language = require('./langOptions');
-const translate = require('google-translate-api');
+const translate = require('@iamtraction/google-translate');
 const speech = require('./messages');
+require('dotenv').config();
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_VOICE_STATES, Intents.FLAGS.GUILD_MESSAGES] });
 const prefix = "!";
 
